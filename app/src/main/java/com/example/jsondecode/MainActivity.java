@@ -10,7 +10,7 @@ import org.json.JSONObject;
 
 public class MainActivity extends AppCompatActivity {
 
-    //{} JsonObject, [] JsonArray, String, Integer, Boolean, Float
+    //{} JSONObject, [] JSONArray, String, Integer, Boolean, Float
 
     //JSON Check:-JsonViewer And JsonValidator
 
@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
             int salary = employee.getInt("salary");
             boolean married = employee.getBoolean("married");
 
-            Log.e("Demo",""+employee);
+            Log.e("Activity",""+employee);
 
         } catch (JSONException e) {
 
